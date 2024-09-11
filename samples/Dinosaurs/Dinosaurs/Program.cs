@@ -17,7 +17,7 @@
         {
             // Since the dinosaur-facts repo no longer works, populate your own one with sample data
             // in "sample.json"
-            var firebase = new FirebaseClient("https://dinosaur-facts.firebaseio.com/");
+            var firebase = new FirebaseClient("https://dinosaur-d384d-default-rtdb.europe-west1.firebasedatabase.app/");
 
             var dinos = await firebase
               .Child("dinosaurs")
